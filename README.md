@@ -12,6 +12,7 @@ Average speed (tokens/s) of generating 1024 tokens by GPUs on LLaMA 3. Higher sp
 
 | GPU                        | 8B Q4_K_M | 8B F16 | 70B Q4_K_M | 70B F16 |
 |----------------------------|-----------|--------|------------|---------|
+| a770 16gb                  | 58        | null   | null       | null    |
 | 3070 8GB                   | 70.94     | OOM    | OOM        | OOM     |
 | 3080 10GB                  | 106.40    | OOM    | OOM        | OOM     |
 | 3080 Ti 12GB               | 106.71    | OOM    | OOM        | OOM     |
